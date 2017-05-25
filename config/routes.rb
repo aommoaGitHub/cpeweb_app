@@ -7,9 +7,10 @@ Rails.application.routes.draw do
   get '/about', to: 'static_pages#about'
   get '/contact', to: 'static_pages#contact'
   get '/tuitionscholar', to: 'static_pages#tuitionscholar'
-  
+  get '/admission', to: 'static_pages#admission'
  
   get 'static_pages/triumph'
+
 
 end
 
