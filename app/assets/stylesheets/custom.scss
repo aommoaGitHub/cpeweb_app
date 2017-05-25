@@ -1,0 +1,16 @@
+@import "bootstrap-sprockets";
+
+@import "bootstrap";
+
+/* universal */
+
+head {
+    border: 3px solid black;
+    color: #330000;
+    float: center;
+    font-size: 50px;
+    width: 745px;
+    height: 80px;
+    padding: 25px;
+    margin-top: 50px;
+}
