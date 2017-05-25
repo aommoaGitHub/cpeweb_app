@@ -10,6 +10,8 @@ Rails.application.routes.draw do
   get '/admission', to: 'static_pages#admission'
  
   get 'static_pages/triumph'
+  
+  # get 'static_pages/admission'
 
 
 end
