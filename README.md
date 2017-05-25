@@ -1,24 +1,17 @@
-# README
+# CPEWEB_APP
+5 members
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Vittunyuta Maeprasart: css, link on menu bar, about pages, control workflow.
 
-Things you may want to cover:
+Pannapat Panpakdee: css, all activity pages.
 
-* Ruby version
+Kwankaew Uttama: css, all admission pages.
 
-* System dependencies
+Jiranan Patrathamakul: css, home page, tuition&scholarship page.
 
-* Configuration
+Pimwalun Witchawanitchanun: css, footer part, contact us page.
 
-* Database creation
+And every one do user stories.
 
-* Database initialization
+Heroku: <https://dashboard.heroku.com/apps/cpewepappfinalisp>
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
