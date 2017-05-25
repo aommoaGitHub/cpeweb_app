@@ -14,36 +14,42 @@ head {
     margin-top: 50px;
 }
 
+
 /* footer */
 
 footer {
-margin-top: 45px;
-padding-top: 5px;
-border-top: 1px solid #eaeaea;
-color: #777;
+    margin-top: 45px;
+    padding-top: 5px;
+    border-top: 1px solid #eaeaea;
+    color: #777;
 }
 
 footer a {
 color: #555;
+text-align: center;
 }
 
 footer a:hover {
 color: #222;
+text-align: center;
 }
 
-footer small {
-float: left;
+footer p {
+// float: left;
+text-align: center;
 }
 
 footer ul {
-float: right;
+float: center;
 list-style: none;
 }
 
 footer ul li {
-float: left;
-margin-left: 15px;
+float: center;
+// margin-left: 50%;
+text-align: center;
 }
+
 
 /* universal */
 
@@ -80,11 +86,12 @@ h6 {
 }
 
 h1 {
-    // font-size: 3em;
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 3em;
     letter-spacing: -2px;
     margin-bottom: 30px;
-    // text-align: center;
 }
+
 
 h2 {
     font-size: 1.2em;
@@ -118,3 +125,52 @@ p {
     color: #fff;
     text-decoration: none;
 }
+
+.button{
+    color: rgb(83, 83, 83);
+    width: 200px;
+    background-color: rgb(134, 255, 131);
+    border: 1px solid gray;
+    padding: 5px;
+    border-radius: 20px 20px 20px 20px
+}
+
+.buttonD{
+    color: white;
+    width: 200px;
+    background-color: rgb(72, 77, 179);
+    border: 1px solid gray;
+    padding: 5px;
+    border-radius: 10px 10px 10px 10px
+
+#box1 {
+    border :1px ridge black;
+    padding: 8px;
+}
+
+#box2 {
+    border :1px ridge black;
+    padding: 8px;
+}
+
+#box3 {
+    border :1px ridge black;
+    padding: 8px;
+}
+
+#box4 {
+    border :1px ridge black;
+    padding: 8px;
+}
+
+#box5 {
+    border :1px ridge black;
+    padding: 8px;
+
+}
+
+.mySlides {
+    width:1200px;
+    height:350px;
+}
+
