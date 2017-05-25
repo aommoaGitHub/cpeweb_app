@@ -1,6 +1,5 @@
 <!DOCTYPE html> 
 <html>
-<<<<<<< HEAD
 <head>
   <title><%= yield(:title) %></title>
   <%= csrf_meta_tags %>
@@ -14,7 +13,7 @@
 <body>
   <header class="navbar navbar-fixed-top navbar-inverse">
     <div class="container">
-      <!--<%= link_to "CPEWEB", '#', id: "logo" %>-->
+      <%= link_to "CPEWEB", '#', id: "logo" %>
       <nav>
         <ul class="nav navbar-nav navbar-right"> 
           <li><%= link_to "Home", root_path %></li> 
@@ -25,7 +24,7 @@
     </div>
   </header>
   <div class="container">
-    <%= yield %> 
+    <%= yield %>
     <%= render 'layouts/footer' %>
   </div>
 </body> 
