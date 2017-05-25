@@ -25,24 +25,28 @@ color: #777;
 
 footer a {
 color: #555;
+text-align: center;
 }
 
 footer a:hover {
 color: #222;
+text-align: center;
 }
 
-footer small {
-float: left;
+footer p {
+// float: left;
+text-align: center;
 }
 
 footer ul {
-float: right;
+float: center;
 list-style: none;
 }
 
 footer ul li {
-float: left;
-margin-left: 15px;
+float: center;
+// margin-left: 50%;
+text-align: center;
 }
 
 /* universal */
@@ -117,4 +121,22 @@ p {
 #logo:hover {
     color: #fff;
     text-decoration: none;
+}
+
+.button{
+    color: rgb(83, 83, 83);
+    width: 200px;
+    background-color: rgb(134, 255, 131);
+    border: 1px solid gray;
+    padding: 5px;
+    border-radius: 20px 20px 20px 20px
+}
+
+.buttonD{
+    color: white;
+    width: 200px;
+    background-color: rgb(72, 77, 179);
+    border: 1px solid gray;
+    padding: 5px;
+    border-radius: 10px 10px 10px 10px
 }
