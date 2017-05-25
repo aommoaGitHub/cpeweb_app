@@ -13,5 +13,5 @@ Pimwalun Witchawanitchanun: css, footer part, contact us page.
 
 And every one do user stories.
 
-Heroku: <https://dashboard.heroku.com/apps/cpewepappfinalisp>
+Heroku: <https://cpewepappfinalisp.herokuapp.com/>
 
