@@ -13,13 +13,15 @@
 <body>
   <header class="navbar navbar-fixed-top navbar-inverse">
     <div class="container">
-      <%= link_to "CPEWEB", '#', id: "logo" %>
+      <%= link_to "CPEWEB", root_path, id: "logo" %>
       <nav>
         <ul class="nav navbar-nav navbar-right"> 
           <li><%= link_to "Home", root_path %></li>
           <li><%= link_to "About", about_path %></li>
+          <li><%= link_to "Activity", activity_path %></li>
+          <li><%= link_to "Addmission", admission_path %></li>
           <li><%= link_to "Tuition&Scholarships", tuitionscholar_path %></li>
-          <li><%= link_to "Contact", contact_path %></li>
+          <li><%= link_to "Contact US", contact_path %></li>
         </ul> 
       </nav>
     </div>

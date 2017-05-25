@@ -1,8 +1,9 @@
 Rails.application.routes.draw do
 
   root 'static_pages#home'
-  
-  get 'static_pages/activity'
+
+
+  get 'static_pages/triumph'
   
   get 'static_pages/activityinside'
   
@@ -15,10 +16,10 @@ Rails.application.routes.draw do
   get '/contact', to: 'static_pages#contact'
   get '/tuitionscholar', to: 'static_pages#tuitionscholar'
   get '/admission', to: 'static_pages#admission'
+  get '/activity', to: 'static_pages#activity'
  
-  get 'static_pages/triumph'
+#   get '/triumph', to: 'static_pages#triumph'
   
-  # get 'static_pages/admission'
 
 
 end

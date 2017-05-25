@@ -35,7 +35,6 @@ text-align: center;
 }
 
 footer p {
-// float: left;
 text-align: center;
 }
 
@@ -46,7 +45,6 @@ list-style: none;
 
 footer ul li {
 float: center;
-// margin-left: 50%;
 text-align: center;
 }
 
@@ -141,7 +139,8 @@ p {
     background-color: rgb(72, 77, 179);
     border: 1px solid gray;
     padding: 5px;
-    border-radius: 10px 10px 10px 10px
+    border-radius: 10px 10px 10px 10px;
+}
 
 #box1 {
     border :1px ridge black;
