@@ -14,13 +14,14 @@ head {
     margin-top: 50px;
 }
 
+
 /* footer */
 
 footer {
-margin-top: 45px;
-padding-top: 5px;
-border-top: 1px solid #eaeaea;
-color: #777;
+    margin-top: 45px;
+    padding-top: 5px;
+    border-top: 1px solid #eaeaea;
+    color: #777;
 }
 
 footer a {
@@ -48,6 +49,7 @@ float: center;
 // margin-left: 50%;
 text-align: center;
 }
+
 
 /* universal */
 
@@ -84,11 +86,12 @@ h6 {
 }
 
 h1 {
-    // font-size: 3em;
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 3em;
     letter-spacing: -2px;
     margin-bottom: 30px;
-    // text-align: center;
 }
+
 
 h2 {
     font-size: 1.2em;
@@ -123,6 +126,7 @@ p {
     text-decoration: none;
 }
 
+<<<<<<< HEAD
 .button{
     color: rgb(83, 83, 83);
     width: 200px;
@@ -140,3 +144,10 @@ p {
     padding: 5px;
     border-radius: 10px 10px 10px 10px
 }
+=======
+.mySlides {
+    width:1200px;
+    height:350px;
+}
+
+>>>>>>> Tune

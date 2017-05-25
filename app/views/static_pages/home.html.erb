@@ -1,8 +1,38 @@
 <% provide(:title, 'Home') %>
-<head>
-    <div id=head>
-        <left><img src="https://www.cpe.ku.ac.th/wp-content/uploads/2014/08/logo_blue2-1.jpg"></left>
-    </div>
-</head>
+<style>
+.mySlides {display:none;}
+</style>
 <body>
+
+
+
+<div class="photo_anime_show">
+  <img class="mySlides" src="https://www.cpe.ku.ac.th/wp-content/uploads/2014/08/logo_blue2-1.jpg" >
+  <img class="mySlides" src="https://www.cpe.ku.ac.th/wp-content/uploads/2014/09/IMG_1242-960x350.jpg">
+  <img class="mySlides" src="http://www.mp.kus.ku.ac.th/2012/images/slide/12.png">
+    <img class="mySlides" src="https://www.cpe.ku.ac.th/wp-content/uploads/2014/09/IMG_3138-960x350.jpg">
+    <img class="mySlides" src="https://www.cpe.ku.ac.th/wp-content/uploads/2015/03/exceed_section.jpg">
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+
+<h1 style="text-align: center">Welcome to Department of Computer Engineering of Kasetsart University</h1>
+
+
 </body>
+
